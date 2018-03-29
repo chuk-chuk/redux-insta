@@ -6,7 +6,6 @@ export function increment(index){
     }
 }
 //add comment
-
 export function addCommnet(comment, author, postId){
     return {
         type: "ADD_COMMENT",
@@ -16,7 +15,6 @@ export function addCommnet(comment, author, postId){
     }
 }
 //delete comment
-
 export function deleteComment(postId, i){
     return {
         type: "DELETE_COMMENT",
