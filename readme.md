@@ -1,4 +1,4 @@
-# Learn Redux
+# Redux Instagram
 
 A simple React + Redux implementation.
 
