@@ -21,7 +21,7 @@ const Photo = React.createClass({
             <figcaption>
             {post.caption}
             <div className="control-buttons">
-            <button className="likes">
+            <button className="likes" onClick={this.props.increment.bind(null, i)}>
                 &hearts; {post.likes}
             </button>
             <Link className="button" to={`/view/${post.code}`}><span className="comment-count">
